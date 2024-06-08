@@ -46,7 +46,7 @@ def chat(message):
         return f"An unexpected error occurred: {str(e)}"
         
 def main():
-    st.title("Chat with your document")
+    st.title("Chat with your SAP document")
     hasFileUploaded = False
     # Using "with" notation
     with st.sidebar:

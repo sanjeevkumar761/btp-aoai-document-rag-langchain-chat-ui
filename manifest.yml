@@ -6,4 +6,4 @@ applications:
   memory: 128M
   buildpacks: 
   - python_buildpack
-  command: streamlit run chat-ui.py
+  command: streamlit run chat-ui.py --server.port 8080
