@@ -1,0 +1,9 @@
+---
+applications:
+- name: aoai-document-rag-langchain-chat-ui
+  random-route: true
+  path: ./
+  memory: 128M
+  buildpacks: 
+  - python_buildpack
+  command: streamlit run chat-ui.py
